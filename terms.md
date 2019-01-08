@@ -8,7 +8,3 @@
   * and a lot more.
 * _Kext:_ A combination of **K**ernel **Ext**ension. These are additions to the macOS kernel which you can think of like drivers on windows.
 
-
-
-
-

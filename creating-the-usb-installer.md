@@ -29,7 +29,7 @@ diskutil partitionDisk /dev/disk# GPT JHFS+ "USB" 100%
 * `GPT`- Use GUID partition map.
 * `JHFS+ "USB" 100%`- Make a partition called _USB_ using the entirety of the disk and format it as JHFS+.
 
-We will be using the High Sierra command in this case as Mojave isn't yet supported by the AMD kernel.   
+We will be using the High Sierra command in this case as Mojave isn't yet supported by the AMD kernel.  
 The following command assumes you have your BaseSystem.dmg on your desktop. Adjust if needed.
 
 ```bash
@@ -38,7 +38,7 @@ sudo asr restore -source ~/Desktop/BaseSystem.dmg -target /dev/disk#s2 --erase
 
 _This takes a lot of time and doesn't create a lot of output_. It can take a good 30-40 minutes on a weaker machine, so just because it doesn't change anything on screen don't assume it froze. Grab a cup of good coffee, talk with your family, watch an episode of your favourite show and come back after that, it should be done.
 
-When this is all done you will have a USB drive that can boot network recovery on a real mac. You only need to add a few hackintosh specific things and you will be ready to go. 
+When this is all done you will have a USB drive that can boot network recovery on a real mac. You only need to add a few hackintosh specific things and you will be ready to go.
 
-At some point in the future I might write a script that does this for you. For the  lazy and/or easily scared by the command line.
+At some point in the future I might write a script that does this for you. For the lazy and/or easily scared by the command line.
 

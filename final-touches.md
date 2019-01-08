@@ -8,7 +8,7 @@ Now that our macOS install is fully set up for AMD computers we can finally boot
 
 You probably notice that some things are wrong...
 
-### Installing clover to your drive
+### Installing Clover to your drive
 
 As of now you cannot boot macOS without your USB drive.
 
@@ -42,18 +42,6 @@ Now from this EFI on your USB drive copy the following files and directories to 
 * config.plist
 
 With this done Clover is installed to your HDD and you will no longer need your HDD to boot!
-
-### Installing Nvidia drivers
-
-If you are on any decently modern Nvidia card you will notice that things are running slowly, and when you open up _About this mac_ the wrong graphics card is shown, or has the wrong amount of VRAM. This is because Nvidia cards now require WebDrivers to work properly. These work exactly like drivers on Windows, but are a bit more picky with their requirements. You need to download the drivers for exactly your macOS version, including build. To get your build number do the following:
-
-1. Press the Apple in the top left corner
-2. Click on _About this mac_
-3. A window will pop up
-4. In this window press on _Version 10.13.x_. 
-5. The build version will show next to it.
-
-You can use [this useful guide](https://www.insanelymac.com/forum/topic/324195-nvidia-web-driver-updates-for-macos-high-sierra-update-december-7-2018/) made by fantomas1 over on InsanelyMac to download the version needed for your specific macOS version.
 
 ### Fixing Ryzen sound
 

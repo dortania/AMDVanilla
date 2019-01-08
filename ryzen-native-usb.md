@@ -1,3 +1,7 @@
+---
+description: 'Note: This page not yet updated for Mojave.'
+---
+
 # Ryzen native USB
 
 ### Downloading tools
@@ -11,7 +15,7 @@ You will need the following tools to continue:
 
 ### Extracting DSDT
 
-Boot your USB drive with clover and press F4. Clover will extract your DSDT to /EFI/Clover/ACPI/origin
+Boot your USB drive with clover and press F4. Clover will extract your DSDT to `/EFI/Clover/ACPI/origin`.
 
 ### Editing the DSDT
 

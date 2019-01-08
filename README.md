@@ -27,11 +27,13 @@ Making your own install teaches you a lot more about how hackintoshing works whi
 * Native Audio
 * The latest version of macOS High Sierra
 * iCloud
+* AMD GPUs
 
 So much works, that it is easier to say what doesn't so here we go:
 
 * AMD FX CPUs \(I don't have one to use for testing\)
 * Internal Graphics. Be it an AMD Ax CPU or one of the G Ryzen chips, the GPU will **not** work.
+* Nvidia GPUs requiring Nvidia Web Drivers \(no Web Drivers yet\)
 * Lower GPU performance, more specifically:
   * About 10% lower on AMD GPUs
   * About 75% lower on Nvidia GPUs
