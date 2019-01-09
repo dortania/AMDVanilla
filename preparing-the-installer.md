@@ -31,7 +31,7 @@ You will also need the following files for USB support. On FX this is permanent,
 * DummyUSBEHCIPCI.kext
 * DummyUSBXHCIPCI.kext
 
-These files can be downloaded here. We do not need them on Ryzen as we will be setting up native USB. This will be explained later on.
+These files can be downloaded [here](https://github.com/IOIIIO/AMDVanilla/tree/master/files). We do not need them on Ryzen as we will be setting up native USB. This will be explained later on.
 
 #### Side note:
 

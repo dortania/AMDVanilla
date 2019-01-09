@@ -28,7 +28,7 @@ All the kexts shown here are available for download on the [_**kext repo**_](htt
 * [_WhateverGreen.kext_ ](https://github.com/acidanthera/WhateverGreen)_-_ this kext fixes a lot of GPU related issues.
 * [_Lilu.kext_](https://github.com/acidanthera/Lilu) _-_ this kext acts as a loader for other kexts. More specifically it can patch kexts, processes and libraries.
 
-### WiFi and Bluetooth  <a id="wifi-and-bluetooth"></a>
+### WiFi and Bluetooth   <a id="wifi-and-bluetooth"></a>
 
 \(I myself don't use Bluetooth nor WiFi so I don't have knowledge in that, but here is some information on the subject by CorpNewt. _Check **Credits** for more info_\)
 
