@@ -84,7 +84,7 @@ You want to use the following settings, as shown in the screenshots. This is gen
   * _ApfsDriverLoader_ - \(Available in Dids' Clover builds - or [here](https://github.com/acidanthera/ApfsSupportPkg/releases)\) this allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device \(if using AptioMemoryFix as well, requires R21 or newer\)
 * _Install RC scripts on target volume_
 
-Provided you don't plan on using FileVault \(which I don't even think works properly on AMD\) this concludes our Clover installation!
+Provided you don't plan on using FileVault \(which I don't even think works properly on AMD\) this concludes our clover installation!
 
 ### Copying kexts
 
