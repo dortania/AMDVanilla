@@ -37,7 +37,8 @@ So much works, that it is easier to say what doesn't so here we go:
 * Nvidia GPUs requiring Nvidia Web Drivers \(no Web Drivers yet\)
 * Lower GPU performance, more specifically:
   * About 10% lower on AMD GPUs
-  * About 75% lower on Nvidia GPUs
+  * ~~About 75% lower on Nvidia GPUs~~
+    * I have been told that this is not the case. Performance varies a lot per model, but it is safe to assume it is a lot lower than on Windows.
 * IOMMU
 * iMessage, FaceTime
 * Siri
