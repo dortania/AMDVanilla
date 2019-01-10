@@ -6,10 +6,10 @@ So far this guide has only been tested on Ryzen CPUs.
 What will you need to make an installer:
 
 * an 8GB or larger USB drive
-* Install macOS Mojave.app \(10.14.1 as Apple has not released any other sources yet, preferably from the [App Store](https://itunes.apple.com/us/app/macos-mojave/id1398502828?mt=12)\)
+* Install macOS Mojave.app \(10.14.1, preferably from the [App Store](https://itunes.apple.com/us/app/macos-mojave/id1398502828?mt=12)\)
 * [Clover installer](https://github.com/Dids/clover-builder/releases) \(Daily builds done courtesy of Dids\)
 * [Clover Configurator ](http://mackie100projects.altervista.org/download-clover-configurator/)\(You can also use any text editor, but CC is generally a lot faster\)
-* ~~~~\[~~FakeSMC.kext~~\]\(~~[https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/)~~\) ~~\(The one kext you absolutely need. It emulates the SMC of a Mac and basically tells macOS "Yes this is a real mac, you are free to boot"\)~~
+* ~~~~[~~FakeSMC.kext~~](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/) ~~\(The one kext you absolutely need. It emulates the SMC of a Mac and basically tells macOS "Yes this is a real mac, you are free to boot"\)~~
   * These days a modern alternative to the FakeSMC.kext has emerged:
   * [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) It does the same basic things as FakeSMC but is the more modern and recommended alternative. Use FakeSMC only if VirtualSMC does not work.
   * [Installer kexts](https://github.com/Shaneee92/Mojave_AMD_XNU/releases) \(These are first party Apple kexts that are needed to rebuild the kextcache, but are missing from the installer. These specific ones are for 10.14.1.\)

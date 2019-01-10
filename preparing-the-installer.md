@@ -12,13 +12,14 @@ cd /Volumes/OS\ X\ Base\ System/System/Library
 mkdir Kernels
 cp ~/Desktop/kernel Kernels/kernel
 sudo cp -r ~/Desktop/System.kext Extensions/System.kext
+sudo cp -r ~/Desktop/IONetworkingFamily.kext Extensions/IONetworkingFamily.kext
 ```
 
 The first command mounts the USB drive.  
 The second command changes the current directory to the USB drive's _System/Library_  
 The third command creates the _Kernels_ directory  
-The fourth command copies the Kernel from the desktop  
-The fifth command copies the _System.kext_ from the desktop
+The fourth command copies the kernel from the desktop  
+The fifth and sixth commands copy _System.kext_ and _IONetworkingFamily.kext_ from the desktop
 
 ### Copying some kexts
 
@@ -26,12 +27,12 @@ The BaseSystem image needs some kexts to be replaced to boot macOS on AMD. We wi
 
 Extract the .ZIP with kexts that you downloaded to your desktop.
 
-You will also need the following files for USB support. On FX this is permanent, on Ryzen we will be replacing it later by a better alternative:
+You will also need the following files for USB support.
 
 * DummyUSBEHCIPCI.kext
 * DummyUSBXHCIPCI.kext
 
-These files can be downloaded here. We do not need them on Ryzen as we will be setting up native USB. This will be explained later on.
+These files can be downloaded here.
 
 #### Side note:
 
@@ -84,7 +85,7 @@ You want to use the following settings, as shown in the screenshots. This is gen
   * _ApfsDriverLoader_ - \(Available in Dids' Clover builds - or [here](https://github.com/acidanthera/ApfsSupportPkg/releases)\) this allows Clover to see and boot from APFS volumes by loading apfs.efi from ApfsContainer located on block device \(if using AptioMemoryFix as well, requires R21 or newer\)
 * _Install RC scripts on target volume_
 
-Provided you don't plan on using FileVault \(which I don't even think works properly on AMD\) this concludes our clover installation!
+Provided you don't plan on using FileVault \(which I don't even think works properly on AMD\) this concludes our Clover installation!
 
 ### Copying kexts
 

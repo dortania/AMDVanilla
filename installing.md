@@ -8,7 +8,7 @@ Now how do you install with it?
 For the best results you should set your BIOS to the following settings:
 
 * Execute Virtual Bit: Enabled 
-* Secure Virtual Machine\(SVM\): Disabled \(Enable if needed, but untested and may lead to issues.\)
+* Secure Virtual Machine \(SVM\): Disabled \(Enable if needed, but untested and may lead to issues.\)
 * Cool 'n Quiet = Enabled 
 * **APU = Disabled \(May also be denoted as** _**Integrated Graphics**_**\)**
 * Spread Spectrum = Auto 
@@ -27,7 +27,7 @@ Settings in bold are highly recommended though you may experience issues with th
 
 All other settings are best set as advised, but are not crucial.
 
-\***Make sure you have Legacy disabled. If your machine is not set to be UEFI only you may experience issues!\***
+**Make sure you have Legacy disabled. If your machine is not set to be UEFI only you may experience issues!**
 
 ## Booting the installer
 
@@ -43,7 +43,7 @@ You will need to launch the option called _Disk Utility_. You will be greeted by
 
 Chose the drive you want to install macOS to and press _Erase_ from the top bar.
 
-A popup will appear with 3 fields. In the first one you enter the name you want your drive to have. I am naming mine "macOS", and so all the commands used further on in this guide will be for a drive named "macOS". For _Format_ I recommend choosing _Mac OS Extended \(Journaled\)_ for an HDD and _APFS_ for an SSD. Make sure _Scheme_ is set to GUID Partition Map
+A popup will appear with 3 fields. In the first one you enter the name you want your drive to have. I am naming mine "macOS", and so all the commands used further on in this guide will be for a drive named "macOS". For _Format_ I recommend choosing _Mac OS Extended \(Journaled\)_ for an HDD and _APFS_ for an SSD. Make sure _Scheme_ is set to GUID Partition Map.
 
 _**NOW MAKE SURE THAT ALL THE DATA ON THIS DRIVE IS BACKED UP AND THAT YOU HAVE SELECTED THE CORRECT DRIVE!! WE ARE ABOUT TO ERASE IT!**_
 
@@ -95,11 +95,12 @@ cp -Rf /System/Library/Kernels/kernel /Volumes/macOS/System/Library/Kernels/kern
 
 #### Ryzen Instructions
 
-Now that the kernel has been copied you are almost done on Ryzen. You will need to copy over two kexts and then you will only have to rebuild the prelinkedkernel aka kextcache. This is done in the same way as when we were setting up the USB drive.
+Now that the kernel has been copied you are almost done on Ryzen. You will need to copy over four kexts and then you will only have to rebuild the prelinkedkernel aka kextcache. This is done in the same way as when we were setting up the USB drive.
 
 ```bash
 cp -rf /System/Library/Extensions/IONetworkingFamily.kext /Volumes/macOS/System/Library/Extensions/IONetworkingFamily.kext
 cp -rf /System/Library/Extensions/System.kext /Volumes/macOS/System/Library/Extensions/System.kext
+cp -rf /System/Library/Extensions/Dummy*.kext /Volumes/macOS/System/Library/Extensions/
 chown -R 0:0 /Volumes/macOS/System/Library/Extensions
 chmod -R 755 /Volumes/macOS/System/Library/Extensions/*.kext
 touch /Volumes/macOS/System/Library/Extensions
