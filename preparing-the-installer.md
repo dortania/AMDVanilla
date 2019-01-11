@@ -32,7 +32,7 @@ You will also need the following files for USB support.
 * DummyUSBEHCIPCI.kext
 * DummyUSBXHCIPCI.kext
 
-These files can be downloaded here.
+These files can be downloaded [here](https://github.com/IOIIIO/AMDVanilla/tree/master/files).
 
 #### Side note:
 
