@@ -14,6 +14,7 @@
 * _Download-Fritz -_ For awaking my competitive side, wanting to publish my guide before his idea.
 * _Jadzia -_ For giving me a ZIP with the kexts needed for 10.13.6.
 * _AlexTheGreat4000 -_ Some master bugcatching
+* _DhinakG_ - For updating this guide to Mojave
 * **You** - For reading the guide!
 
 If you for some reason need to contact me personally, I am available on discord with the tag `@NoOne#8086`. I am more likely to answer a hackintosh question if you ask it in either the r/hackintosh discord or the AMD OS X discord.
