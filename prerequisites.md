@@ -1,6 +1,6 @@
 # Prerequisites
 
-This guide focuses on desktops as integrated AMD graphics sadly do not work in macOS. This means that laptop will not have any acceleration \(same goes for APUs, unless you add a separate GPU\).  
+This guide focuses on desktops as integrated AMD graphics sadly do not work in macOS. This means that laptops will not have any acceleration \(same goes for APUs, unless you add a separate GPU\).  
 So far this guide has only been tested on Ryzen CPUs.
 
 What will you need to make an installer:
