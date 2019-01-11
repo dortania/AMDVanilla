@@ -29,7 +29,6 @@ diskutil partitionDisk /dev/disk# GPT JHFS+ "USB" 100%
 * `GPT`- Use GUID partition map.
 * `JHFS+ "USB" 100%`- Make a partition called _USB_ using the entirety of the disk and format it as JHFS+.
 
-We will be using the High Sierra command in this case as Mojave isn't yet supported by the AMD kernel.  
 The following command assumes you have your BaseSystem.dmg on your desktop. Adjust if needed.
 
 _**Replace the \# with your disk's identifier**_

@@ -27,14 +27,14 @@ Making your own install teaches you a lot more about how hackintoshing works whi
 * macOS Mojave 10.14.1
 * iCloud
 * AMD GPUs
-* Nvidia GPUs not requiring Nvidia Web Drivers
+* Nvidia GPUs that don't need Nvidia Web Drivers
 
 So much works, that it is easier to say what doesn't so here we go:
 
 * AMD FX CPUs \(I don't have one to use for testing\)
 * Any other version of Mojave \(Kernel sources haven't been released for other versions, so no patched AMD kernels\)
 * Internal Graphics. Be it an AMD Ax CPU or one of the G Ryzen chips, the GPU will **not** work.
-* Nvidia GPUs requiring Nvidia Web Drivers \(no Web Drivers yet\)
+* Nvidia GPUs that need Nvidia Web Drivers \(no Web Drivers yet\)
 * Lower GPU performance, more specifically:
   * About 10% lower on AMD GPUs
   * ~~About 75% lower on Nvidia GPUs~~
