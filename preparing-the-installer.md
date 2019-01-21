@@ -66,7 +66,7 @@ This process can take a few minutes and when it is done you will most likely rec
 
 The first 5 commands are used to repair permissions on the kexts. The first command changes directory to the `Library`folder. The second one changes the owner of all files in the `Extensions` folder to root.The third one changes the permissions of all kexts in the `Extensions` folder so that the file owner has full control. The command after that strips all extra attributes the files might have. The last of this section of commands basically updates the modification date of all files in the `Extensions` folder.
 
-The last two commands are used to rebuild the prelinkedkernel. The first one removes the existing file and the second one is what rebuild the kernel cache aka the prelinkedkernel.
+The last two commands are used to rebuild the prelinkedkernel. The first one removes the existing file and the second one is what rebuilds the kernel cache aka the prelinkedkernel.
 
 ### Installing Clover
 
