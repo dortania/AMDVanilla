@@ -32,7 +32,7 @@ You will also need the following files for USB support.
 * DummyUSBEHCIPCI.kext
 * DummyUSBXHCIPCI.kext
 
-These files can be downloaded [here](https://github.com/IOIIIO/AMDVanilla/tree/master/files).
+These files can be downloaded [here](https://github.com/hackintosh-guides/AMDVanilla/tree/master/files). We do not need them on Ryzen as we will be setting up native USB. This will be explained later on.
 
 #### Side note:
 

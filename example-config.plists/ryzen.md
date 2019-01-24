@@ -150,7 +150,7 @@ We've changed a few settings here, nothing required, but supposedly can help whe
 
 * _Frequency MHz -_ This is the frequency of your CPU in MHz. In my case the CPU runs at 4.1GHz so I entered 4100MHz.
 * ~~_Bus Speed kHz -_ This is not actually the FSB of your CPU but it is a little higher to make sure everything stays in sync. Stick with the given value.~~
-  * This is unneeded as of kernel version 2.0. Use only if you use an older kernel version.
+  * _**This is unneeded as of kernel version 2.0. Use only if you use an older kernel version.**_
 * _Latency -_ " This parameter value represents the C3 entry latency issued when entering C3 state." or in layman's terms: Disabling speedstep, since AMD CPUs don't support that.
 * _Type -_ Determines what CPU name is displayed in _About this mac_
 
