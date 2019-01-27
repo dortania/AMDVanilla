@@ -9,8 +9,8 @@ The new Kernel will need to be placed in the _System/Library/Kernels_ folder of 
 ```bash
 diskutil mount /dev/disk#s#
 cd /Volumes/OS\ X\ Base\ System/System/Library
-mkdir Kernels
-cp ~/Desktop/kernel Kernels/kernel
+sudo mkdir Kernels
+sudo cp ~/Desktop/kernel Kernels/kernel
 sudo cp -r ~/Desktop/System.kext Extensions/System.kext
 sudo cp -r ~/Desktop/IONetworkingFamily.kext Extensions/IONetworkingFamily.kext
 ```
@@ -41,7 +41,7 @@ Do not add your other kexts here. We will add those later to Clover.
 Extract the Zip file to your desktop to a folder named kexts. After that open _Terminal_ and run the following command to copy the needed files.
 
 ```bash
-cp -r ~/Desktop/kexts/. Extensions/
+sudo cp -r ~/Desktop/kexts/. Extensions/
 ```
 
 ### Rebuilding the prelinkedkernel
