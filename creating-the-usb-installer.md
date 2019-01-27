@@ -39,7 +39,9 @@ sudo asr restore -source ~/Desktop/BaseSystem.dmg -target /dev/disk#s2 --erase
 
 _This takes a lot of time and doesn't create a lot of output_. It can take a good 30-40 minutes on a weaker machine, so just because it doesn't change anything on screen don't assume it froze. Grab a cup of good coffee, talk with your family, watch an episode of your favourite show and come back after that, it should be done.
 
-When this is all done you will have a USB drive that can boot network recovery on a real mac. You only need to add a few hackintosh specific things and you will be ready to go.
+Once that's done, drag the `Install macOS Mojave.app` that you have onto your USB. This will copy the entire installer and not use network recovery, as the latest version of Mojave \(which network recovery will install\) does not have an AMD kernel yet.
+
+When this is all done you will have a USB drive that can boot the full macOS installer on a real Mac. You only need to add a few hackintosh specific things and you will be ready to go.
 
 At some point in the future I might write a script that does this for you. For the lazy and/or easily scared by the command line.
 
