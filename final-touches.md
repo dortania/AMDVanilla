@@ -41,7 +41,7 @@ Now from this EFI on your USB drive copy the following files and directories to 
 * ACPI/patched/DSDT.aml
 * config.plist
 
-With this done Clover is installed to your HDD and you will no longer need your HDD to boot!
+With this done Clover is installed to your HDD and you will no longer need your USB to boot!
 
 ### Fixing Ryzen sound
 
